@@ -1,0 +1,27 @@
+Por que un leguaje de programacion solo puede utilizarse en algunos sistemas operativos u en otros no?
+Por varios factores, uno de ellos es el caso de que no se haya desarrollado un compilador o interprete para 
+un lenguaje en particular en un sistema operativo especifico.
+Otro es que algunos lenguajes de programacion dependen de bibliotecas especificas que estan disenadas 
+para funcionar en cierto sistemas operativos.
+Tambien puede ser porque los lenguajes de programacion populares tienden a tener mas soporte y 
+herramientas disponibles en una variedad mas amplia de sistemas operativos. Si un lenguaje es menos 
+popular o menos utilizado en un sistema operativo en particular, es menos probable que se desarrollen
+ las herramientas necesarias para su funcionamiento en ese entorno.
+
+Que tipo de maquina virtual soporta virtualBox?
+VirtualBox puede virtualizar sistemas operativos basados en arquitecturas x86 y amd64 y soporta un amplio
+ numero de sistemas operativos:
+-Windows (NT 4.0, 2000, XP, Server 2003, Vista, Windows 7, Windows 8, Windows 10)
+-DOS/Windows 3.x
+-Linux (2.4, 2.6, 3.x y 4.x)
+-OS/2
+-OpenBSD
+
+Que funcion cumple el hypervisor en la virtualizacion?
+Su funcion principal es administrar y controlar multiples maquinas virtuales en un entorno de virtualizacion,
+ permitiendo que varios sistemas operativos se ejecuten de manera aislada y eficiente en un mismo hardware fisico.
+
+Si tengo mas de una maquina virtual instalada, y una se rompe, esto afecta a las demas?por que?
+En un entorno de virtualizacion bien configurado y aislado, si una maquina virtual se rompe no deberia afectar
+ a las demas. Esto es gracias al hypervisor que proporciona un alto grado de aislamiento entre las
+ maquinas virtuales y el hardware fisico subyacente.
